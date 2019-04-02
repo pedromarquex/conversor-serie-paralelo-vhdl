@@ -1,0 +1,13 @@
+|serial_paralell
+clk => dado_registrado[0].CLK
+clk => dado_registrado[1].CLK
+clk => dado_registrado[2].CLK
+clk => dado_registrado[3].CLK
+clear => dado_registrado[0].ACLR
+clear => dado_registrado[1].ACLR
+clear => dado_registrado[2].ACLR
+clear => dado_registrado[3].ACLR
+dado_entrada => dado_registrado[0].DATAIN
+dado_saida <= dado_registrado[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
